@@ -20,12 +20,12 @@
 // Учтите, что через каждые 4 часа дороги водителю необходимо делать перерыв на 1 час.
 
 
-// const car = {
-//     Brand: 'BMW',
-//     Model: ' M8 Cabrio Competition',
-//     ['Year of production']: 2020,
-//     ['Average speed (kph)']: 127,
-// }
+const car = {
+    Brand: 'BMW',
+    Model: ' M8 Cabrio Competition',
+    ['Year of production']: 2020,
+    ['Average speed (kph)']: 127,
+}
 
 
 // 1. 
@@ -37,7 +37,7 @@
 // displayCarInfo(car)
 
 
-// 2.
+// 2. Функция для подсчета необходимого времени для преодоления переданного расстояния со средней скоростью:
 // function distanceOvercoming(distance) {
 //   let averageSpeed = car['Average speed (kph)'];
 //   let time = (distance / averageSpeed);
@@ -49,8 +49,59 @@
 
 // *************************************************************************************************************
 
+ 
 
 
+//                                                   Задание 3
+// Создать объект, описывающий время (часы, минуты, секунды), и следующие функции для работы с этим объектом.
+// 1. Функция вывода времени на экран.
+// 2. Функция изменения времени на переданное количество секунд.
+// 3. Функция изменения времени на переданное количество минут.
+// 4. Функция изменения времени на переданное количество часов.
+
+const currentTime = {
+    hour: 15,
+    minutes: 13,
+    seconds: 34,
+}
+
+// 1. console.log(currentTime);
+
+// 2. Функция изменения времени на переданное количество секунд:
+//  function changeSeconds(object, seconds) {
+//     object.seconds += seconds;
+//     if (object.seconds >= 60) {
+//         object.seconds -= 60;
+//         object.minutes += 1;
+//     }
+//     return object
+//  }
+
+//  console.log(changeSeconds(currentTime, 55))
+
+
+
+//  3. Функция изменения времени на переданное количество минут:
+// function changeminutes(object, minutes) {
+//     object.minutes += minutes;
+//     if (object.minutes >= 60) {
+//         object.minutes -= 60;
+//         object.hour += 1;
+//     }
+//     return object
+//  }
+
+//  console.log(changeminutes(currentTime, 48))
+
+
+
+// 4. Функция изменения времени на переданное количество часов: 
+// function changehour(object, hour) {
+//     object.hour += hour;
+//     return object
+//  }
+
+//  console.log(changehour(currentTime, 1))
 
 
  </script>
