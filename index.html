@@ -49,7 +49,87 @@ const car = {
 
 // *************************************************************************************************************
 
- 
+//                                                       Задание 2
+// Создать объект, хранящий в себе отдельно числитель и знаменатель дроби, и следующие функции для работы с этим объектом.
+// 1. Функция сложения 2-х объектов-дробей.
+// 2. Функция вычитания 2-х объектов-дробей.
+// 3. Функция умножения 2-х объектов-дробей.
+// 4. Функция деления 2-х объектов-дробей.
+// 5. Функция сокращения объекта-дроби
+
+const fractionNumber = {
+    numerator: 4,
+    denominator: 12
+}
+
+// 1. 
+// function sumFraction(object) {
+//     let result = 0;
+//     for (let key in object) {
+//       result = fractionNumber.numerator + fractionNumber.denominator;
+//     }
+//     return result
+// }
+// console.log(sumFraction(fractionNumber));
+
+
+// 2. 
+// function subtractFraction(object) {
+//     let result = 0;
+//     for (let key in object) {
+//       result = fractionNumber.numerator - fractionNumber.denominator;
+//     }
+//     return result
+// }
+// console.log(subtractFraction(fractionNumber));
+
+
+// 3.
+// function multiplyFraction(object) {
+//     let result = 0;
+//     for (let key in object) {
+//       result = fractionNumber.numerator * fractionNumber.denominator;
+//     }
+//     return result
+// }
+// console.log(multiplyFraction(fractionNumber));
+
+// 4.
+// function divisionFraction(object) {
+//     let result = 0;
+//     for (let key in object) {
+//       result = fractionNumber.numerator / fractionNumber.denominator;
+//     }
+//     return result
+// }
+// console.log(divisionFraction(fractionNumber));
+
+
+// 5. Функция сокращения объекта-дроби:
+// function reductionFraction(object) {
+//     let result = 0;
+//     let number1 = fractionNumber.numerator;
+//     let number2 = fractionNumber.denominator
+
+//     if ((number1 > number2) && (number1 % number2 == 0)) {
+//         result = number1 /= number2;
+//         return 'After the reduction the number is: ' + result
+//     }
+
+//     else if ((number2 > number1) && (number2 % number1 == 0)) {
+//         number2 /= number1;
+//         number1 /= number1;
+//         return 'The new fraction is: ' + number1 + '/' + number2
+//     }
+
+//     else return 'The fraction could not be reduced: ' + number1 + '/' + number2
+
+   
+// }
+// console.log(reductionFraction(fractionNumber));
+
+
+// ***********************************************************************************************************
 
 
 //                                                   Задание 3
